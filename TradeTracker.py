@@ -57,7 +57,7 @@ def trade_tracker(PATH):
 def main():
     PATH = "c:\\Program Files (x86)\\chromedriver.exe"  # Note the double backslashes
     trade_tracker(PATH)
-    file = open(r'C:\Users\noor1\Desktop\TradeTracker\script.txt', 'a')
+    file = open(r'YOUR PATH TO A TXT FILE WITHIN THE PROJECT FOLDER HERE< IDEAL FOR SCHEDULING VIA WINDOWS TASK SCHEDULER', 'a')
     file.write(f'{datetime.datetime.now()} - The script ran \n')
 
 
